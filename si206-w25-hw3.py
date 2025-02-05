@@ -24,7 +24,7 @@ class MagicEightBall:
 
     def get_fortune(self, question):
         if question in self.previous_questions:
-            return "I’ve already answered this question"
+            return "I've already answered this question"
         
         answer_index = random.randint(0, len(self.answers_list) - 1)
         self.previous_questions.append(question)

@@ -1,0 +1,13 @@
+if lag1mcreal <= 23821.9756:
+    return [[0.01285974]]
+else:  # if lag1mcreal > 23821.9756
+    if finlag1bm <= 0.4832:
+        if lag1mcreal <= 188373.1484:
+            return [[-0.00473664]]
+        else:  # if lag1mcreal > 188373.1484
+            return [[-0.00126291]]
+    else:  # if finlag1bm > 0.4832
+        if finlag1bm <= 1.0085:
+            return [[0.00174383]]
+        else:  # if finlag1bm > 1.0085
+            return [[0.00650014]]
